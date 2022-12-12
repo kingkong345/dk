@@ -35,38 +35,29 @@
       position: absolute;
       z-index: 5;
       left: 5%;
-      top: 50%;
+      top: 45%;
       color: #fff;
       text-shadow: 5px 0px 5px 5px rgba(0, 0, 0, 0.9);
       .sub {
         width: 100%;
-        font-size: 19px;
+        font-size: $h2;
         font-weight: 500;
       }
       .main {
-        font-size: $h1;
+        font-size: $h4 -2 px;
         display: block;
         margin-top: 20px;
-        font-weight: 700;
+        line-height: 1.25;
+        font-weight: 300;
       }
     }
-    &.visual01 .img {
-      background: url(../images/main/main001.jpg);
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    &.visual02 .img {
-      background: url(../images/main/main002.jpg);
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    &.visual03 .img {
-      background: url(../images/main/main003.jpg);
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-size: cover;
+    @for $i from 1 through 15 {
+      &.visual0#{$i} .img {
+        background: url(../images/main/visual0#{$i}.jpg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     }
     .img {
       height: 100vh;
@@ -168,11 +159,19 @@
   position: relative;
   padding: 50px 0px;
   background-color: #eee;
-  .title h2 {
-    color: $main-color;
-    br {
-      content: "";
+  .title {
+    h2 {
+      color: $main-color;
+      br {
+        content: "";
+      }
     }
+    p {
+      display: none;
+    }
+  }
+  .btns {
+    display: none;
   }
   .container {
     position: relative;
