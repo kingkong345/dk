@@ -299,10 +299,10 @@
       }
     }
     .visual01 {
-      background-image: url("../images/main/about_bg01.jpg");
+      background-image: url("../images/main/dk-bg.jpg");
     }
     .visual02 {
-      background-image: url("../images/main/about_bg02.jpg");
+      background-image: url("../images/main/loge-bg.jpg");
     }
     .pagination {
       position: absolute;
@@ -353,19 +353,6 @@
         position: relative;
         margin-bottom: 30px;
         overflow: hidden;
-        // &:before {
-        //   content: "";
-        //   display: block;
-        //   border: 1px solid #fff;
-        //   position: absolute;
-        //   left: 30px;
-        //   right: 30px;
-        //   top: 30px;
-        //   bottom: 30px;
-        //   opacity: 0;
-        //   z-index: 2;
-        //   transition: all 0.25s ease;
-        // }
         &:before {
           content: "";
           display: block;

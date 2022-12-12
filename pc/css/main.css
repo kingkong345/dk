@@ -385,10 +385,10 @@
   font-weight: 300;
 }
 #about .banner .visual01 {
-  background-image: url("../images/main/about_bg01.jpg");
+  background-image: url("../images/main/dk-bg.jpg");
 }
 #about .banner .visual02 {
-  background-image: url("../images/main/about_bg02.jpg");
+  background-image: url("../images/main/loge-bg.jpg");
 }
 #about .banner .pagination {
   position: absolute;
