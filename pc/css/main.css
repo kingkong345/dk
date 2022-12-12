@@ -524,6 +524,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  font-weight: 500;
   vertical-align: middle;
 }
 #news .banner ul li a .txt h3 span {
@@ -542,6 +543,7 @@
   -webkit-box-orient: vertical;
   height: 3em;
   line-height: 1.5;
+  font-weight: 300;
 }
 
 #pr {
