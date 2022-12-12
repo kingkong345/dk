@@ -514,6 +514,9 @@
 }
 #news .banner ul li a img {
   height: 150px;
+  width: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #news .banner ul li a .txt {
   margin-left: 50px;
